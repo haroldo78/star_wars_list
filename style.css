@@ -1,0 +1,39 @@
+body{
+  margin:0;
+  margin-top: 80px;
+}
+*, ::after, ::before {
+    box-sizing: content-box !important;
+
+}
+    li{
+      list-style-type: none;
+      margin: 0 auto;
+      margin-left: -40px;  
+    }
+li:nth-child(even){
+    background: #DCDCDC;
+}
+ul#dadospessoa{
+
+}
+.dadospessoais{
+   
+    float: left;
+   
+}
+.planetas{
+ 
+    float: left;
+    
+}
+ul#nomeespecie.especie {
+    float: left;
+}
+#filmes{
+  position: relative;
+}
+.filmes {
+    position: absolute;
+    margin-top: 450px;
+}
